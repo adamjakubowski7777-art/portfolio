@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adam Jakubowski</title>
+        <link rel="stylesheet" href="adam.css">
+        <link href="https://fonts.googleapis.com/css2?family=Elephant&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+<div class="header-container">
+<div class="logo">
+<img src="https://cdn.pixabay.com/photo/2016/08/25/07/30/red-1618916_1280.png" alt="Logo">
+</div>
+
+<nav class="nav" id="mainNav">
+<a href="#omnie">O MNIE</a>
+<a href="#uslugi">USŁUGI</a>
+<a href="#cennik">CENNIK</a>
+<a href="#kontakt">KONTAKT</a>
+</nav>
+
+<div class="hamburger" id="hamburger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</header>
+        
+        <section id="omnie" class="omnie">
+
+        <div class="omnie-left">
+        <img src="img/laptop.jpg" alt="laptop">
+    </div>
+
+    <div class="omnie-right">
+        <h1>Tworzę nowoczesne strony dla firm</h1>
+        <p>Strony internetowe, które budują zaufanie, wyglądają profesjonalnie i pomagają zdobywać klientów.
+             Szybkie, lekkie i dopasowane do urządzeń mobilnych.
+        </p>
+
+        <div class="omnie-buttons">
+            <a href="#uslugi" class="btn-primary">Usługi</a>
+            <a href="#kontakt" class="btn-outline">Kontakt</a>
+        </div>
+    </div>
+
+</section>
+<h2 class="ha">USŁUGI</h2>
+<section id="uslugi" class="uslugi">
+    <div class="box">
+    <h2>STRONA BASIC</h2>
+<p>Strona basic oferuję klientowi gwarantowany hosting na rok, jest to strona one-page. Nie posiada żadnych podstron, jest prosta lecz przydatna dla małego i średniego rozmiaru działalności</p>
+</div>
+
+<div class="box">
+<h2>STRONA PREMIUM</h2>
+<p>Strona premium oferuję klientowi wybór własnej domeny. Sama strona może posiadać wiele podstron w zależności od upodobań klienta, gwarantowane jest także zaawansowane SEO</p>
+</div>
+</section>
+        
+<section id="cennik" class="cennik">
+<h2>CENNIK</h2>
+<div class="price-box">
+<table>
+<thead>
+<tr>
+<th>Usługa</th>
+<th>Cena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STRONA BASIC</td>
+<td>od 500 zł</td>
+</tr>
+<tr>
+<td>STRONA PREMIUM</td>
+<td>od 700 zł</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="kontakt">
+<h2>KONTAKT</h2>
+    <form id="contactForm" action="https://formspree.io/f/mblpvwvw" method="POST">
+
+<input type="text" id="honeypot" name="honeypot" style="display:none">
+
+<label for="name">Imię:</label>
+<input type="text" id="name" name="name" placeholder="Twoje imię">
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Twój adres email">
+
+<label for="message">Wiadomość:</label>
+<textarea id="message" name="message" rows="4" placeholder="Twoja wiadomość"></textarea>
+
+<button type="submit" id="sendBtn">Wyślij</button>
+
+<!-- ✅ PRZENIESIONE TUTAJ -->
+<p id="success" style="display:none; color: green; margin-top:10px;">Wiadomość wysłana pomyślnie</p>
+<p id="error" style="display:none; color: red; margin-top:10px;">Coś poszło nie tak</p>
+
+</form>
+</section>
+
+<footer>
+<div class="footer-links">
+<ul>
+<li><a href="#omnie">O mnie</a></li>
+<li><a href="#uslugi">Usługi</a></li>
+<li><a href="#cennik">Cennik</a></li>
+<li><a href="#kontakt">Kontakt</a></li>
+</ul>
+</div>
+<div class="footer-bottom">
+📍 Poznań | 📞 513-936-357 | ✉️ adam.jakubowski7777@gmail.com
+</div>
+</footer>
+
+<script src="adam.js"></script>
+        </body>
+        </html>
